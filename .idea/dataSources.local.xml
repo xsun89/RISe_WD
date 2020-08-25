@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="dbs-riseprpdbv1" uuid="8a7c1357-5f61-40cd-b624-960787a311e4">
+      <database-info product="Microsoft SQL Server" version="13.00.5149" jdbc-version="3.0" driver-name="jTDS Type 4 JDBC Driver for MS SQL Server and Sybase" driver-version="1.3.1" dbms="MSSQL" exact-version="13.0.5149" exact-driver-version="1.3">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>ms-domain</auth-provider>
+      <user-name>sun38</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database">
+              <name qname="@" />
+              <name qname="rise_Snapshot" />
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="RiseExternalData">
+              <node kind="schema" qname="Workday" />
+            </node>
+            <node kind="database" qname="RiseFramework">
+              <node kind="schema">
+                <name qname="NewExR" />
+                <name qname="SetOf" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="dbs-riseprpdbd1" uuid="5f20d2b7-b854-4e29-b3b5-9dcf95e9146d">
+      <database-info product="Microsoft SQL Server" version="13.00.5149" jdbc-version="3.0" driver-name="jTDS Type 4 JDBC Driver for MS SQL Server and Sybase" driver-version="1.3.1" dbms="MSSQL" exact-version="13.0.5149" exact-driver-version="1.3">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>ms-domain</auth-provider>
+      <user-name>sun38</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database">
+              <name qname="@" />
+              <name qname="rise" />
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="RiseExternalData">
+              <node kind="schema" qname="Workday" />
+            </node>
+            <node kind="database" qname="RiseFramework">
+              <node kind="schema">
+                <name qname="NewExR" />
+                <name qname="SetOf" />
+              </node>
+            </node>
+            <node kind="database" qname="rise_Snapshot">
+              <node kind="schema" negative="1" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

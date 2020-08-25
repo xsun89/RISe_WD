@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="dbs-riseprpdbv1" uuid="8a7c1357-5f61-40cd-b624-960787a311e4">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://dbs-riseprpdbv1.ead.ubc.ca</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="ead" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="dbs-riseprpdbd1" uuid="5f20d2b7-b854-4e29-b3b5-9dcf95e9146d">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://dbs-riseprpdbd1.ead.ubc.ca</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="ead" />
+      </jdbc-additional-properties>
+    </data-source>
+  </component>
+</project>
